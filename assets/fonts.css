@@ -1,0 +1,141 @@
+/* pretendard */
+@font-face {
+    font-family: 'Pretendard-Variable';
+    src: url('../assets/fonts/pretendard/PretendardVariable.woff2') format('woff2');
+    font-weight: 45 920;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* Montserrat */
+@font-face {
+    font-family: 'Montserrat-Variable';
+    src: url('../assets/fonts/montserrat/Montserrat-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* worksans */
+@font-face {
+    font-family: 'WorkSans-Variable';
+    src: url('../assets/fonts/worksans/WorkSans-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* publicksans */
+@font-face {
+    font-family: 'PublicSans-Variable';
+    src: url('../assets/fonts/publicsans/PublicSans-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* tank */
+@font-face {
+    font-family: 'Tanker-Regular';
+    src: url('../assets/fonts/tank/Tanker-Regular.woff2') format('woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+/* comico */
+@font-face {
+    font-family: 'Comico-Regular';
+    src: url('../assets/fonts/comico/Comico-Regular.woff2') format('woff2');
+    font-display: swap;
+    font-style: normal;
+}
+
+/* clash */
+@font-face {
+    font-family: 'ClashGrotesk-Variable';
+    src: url('../assets/fonts/clashgrotesk/ClashGrotesk-Variable.woff2') format('woff2');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* newtitle */
+@font-face {
+    font-family: 'NewTitle-Variable';
+    src: url('../assets/fonts/newtitle/NewTitle-Variable.woff2') format('woff2');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* technor */
+@font-face {
+    font-family: 'Technor-Variable';
+    src: url('../assets/fonts/technor/Technor-Variable.woff2') format('woff2');
+    font-weight: 200 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* bespokestencil */
+@font-face {
+    font-family: 'BespokeStencil-Variable';
+    src: url('../assets/fonts/bespokestencil/BespokeStencil-Variable.woff2') format('woff2');
+    font-weight: 300 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* bevellier */
+@font-face {
+    font-family: 'Bevellier-Variable';
+    src: url('../assets/fonts/bevellier/Bevellier-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* nippo */
+@font-face {
+    font-family: 'Nippo-Variable';
+    src: url('../assets/fonts/nippo/Nippo-Variable.woff2') format('woff2');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* satoshi */
+@font-face {
+    font-family: 'Satoshi-Variable';
+    src: url('../assets/fonts/satoshi/Satoshi-Variable.woff2') format('woff2');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* supreme */
+@font-face {
+    font-family: 'Supreme-Variable';
+    src: url('../assets/fonts/supreme/Supreme-Variable.woff2') format('woff2');
+    font-weight: 100 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* sharpie */
+@font-face {
+    font-family: 'Sharpie-Variable';
+    src: url('../assets/fonts/sharpie/Sharpie-Variable.woff2') format('woff2');
+    font-weight: 300 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* chillax */
+@font-face {
+    font-family: 'Chillax-Variable';
+    src: url('../assets/fonts/chillax/Chillax-Variable.woff2') format('woff2');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
