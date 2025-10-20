@@ -1,144 +1,154 @@
-@import './fonts.css';
+@import "./fonts.css";
 
 * {
-    margin: 0;
-    padding: 0;
-    color: inherit;
-    font: inherit;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font: inherit;
 }
 
-
-
-
 body {
-    font-size: clamp(1rem, 2vw, 1.75rem);
-    transition: all .4s ease;
-    background: #222;
+  font-size: clamp(1rem, 2vw, 1.75rem);
+  transition: all 0.4s ease;
+  background: #222;
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(auto, auto);
-    justify-content: center;
-    width: 100%;
-    gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(auto, auto);
+  justify-content: center;
+  width: 100%;
+  gap: 40px;
 }
 
-main>div {
-    padding: 20px 30px;
+main > div {
+  padding: 20px 30px;
 }
 
-main>div>h2 {
-    font-size: clamp(2.5rem, 3vw, 5.75rem);
-    color: bisque;
+main > div > h2 {
+  font-size: clamp(2.5rem, 3vw, 5.75rem);
+  color: bisque;
 }
 
 p {
-    color: bisque;
+  color: bisque;
 }
-
-
-
-
 
 /* font-weight */
 .fw-el {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .fw-l {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 .fw-m {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .fw-r {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .fw-b {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .fw-sb {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .fw-eb {
-    font-weight: 800;
+  font-weight: 800;
 }
 
 /* font-family */
+.ff-suit-v {
+  font-family: "SUIT-Variable";
+}
+.ff-cafe24 {
+  font-family: "Cafe24";
+}
+.ff-cafe24-air {
+  font-family: "Cafe24-Air";
+}
+.ff-toss {
+  font-family: "Toss";
+}
+.ff-toss-pixel {
+  font-family: "Toss-pixel";
+}
 .ff-pretendard-v {
-    font-family: "Pretendard-Variable";
+  font-family: "Pretendard-Variable";
 }
 .ff-montserrat-v {
-    font-family: "Montserrat-Variable";
+  font-family: "Montserrat-Variable";
 }
 .ff-worksans-v {
-    font-family: "WorkSans-Variable";
+  font-family: "WorkSans-Variable";
 }
 
-
 .ff-publicsans-v {
-    font-family: "PublicSans-ExtraLight";
+  font-family: "PublicSans-ExtraLight";
 }
 
 .ff-tank-r {
-    font-family: "Tanker-Regular";
+  font-family: "Tanker-Regular";
 }
 
 .ff-comico-r {
-    font-family: "Comico-Regular";
+  font-family: "Comico-Regular";
 }
 
 .ff-clash-v {
-    font-family: "ClashGrotesk-Variable";
+  font-family: "ClashGrotesk-Variable";
 }
 
 .ff-newtitle-v {
-    font-family: "NewTitle-Variable";
+  font-family: "NewTitle-Variable";
 }
 
 .ff-technor-v {
-    font-family: "Technor-Variable";
+  font-family: "Technor-Variable";
 }
 
 .ff-bespoke-v {
-    font-family: "BespokeStencil-Variable";
+  font-family: "BespokeStencil-Variable";
 }
 
 .ff-bevellier-v {
-    font-family: "Bevellier-Variable";
+  font-family: "Bevellier-Variable";
 }
 
 .ff-nippo-v {
-    font-family: "Nippo-Variable";
+  font-family: "Nippo-Variable";
 }
 
 .ff-satoshi-v {
-    font-family: "Satoshi-Variable";
+  font-family: "Satoshi-Variable";
 }
 
 .ff-supreme-v {
-    font-family: "Supreme-Variable";
+  font-family: "Supreme-Variable";
 }
 .ff-sharpie-v {
-    font-family: "Sharpie-Variable";
+  font-family: "Sharpie-Variable";
 }
 .ff-chillax-v {
-    font-family: "Chillax-Variable";
+  font-family: "Chillax-Variable";
 }
-@media screen and (max-width:650px) {
-    main {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
-    }
+.ff-clashdisplay-v {
+  font-family: "ClashDisplay-Variable";
+}
+@media screen and (max-width: 650px) {
+  main {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
 
-    main>div {
-        padding: 10px;
-    }
+  main > div {
+    padding: 10px;
+  }
 }
